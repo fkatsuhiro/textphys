@@ -1,1 +1,1 @@
-# textphys.github.io
+# textphys
