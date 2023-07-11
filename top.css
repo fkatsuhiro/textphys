@@ -1,0 +1,74 @@
+/*共通部分*/
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: "Yu Gothic Medium";
+    line-height: 1.7;
+    color: #432;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.centering_parent {
+    padding: 50px;              /* 余白指定 */
+    background-color: snow;    /* 背景色指定 */
+    /*height: 150px;*/              /* 高さ指定 */
+
+    text-align:  center;        /* 中央寄せ */
+    box-sizing: border-box
+}
+ 
+.centering_item {
+    background-color: aliceblue;  /* 背景色指定 */
+    width:  40%;               /* 幅指定 */
+    height: 250px;               /* 高さ指定 */
+    margin: auto;
+	display: grid;
+	justify-content:space-around;
+	align-items:stretch;
+	border: solid 2px black;
+    display: inline-block;      /* インラインブロックにする */
+}
+
+/*.item01 {
+    background-color: lightblue;
+}
+
+.item02 {
+    background-color: lightcyan;
+}
+
+.item03 {
+    background-color: cadetblue;
+}*/
+
+a.btn_07 {
+	display: block;
+	text-align: center;
+	/*vertical-align: middle;*/
+	text-decoration: none;
+	width: 120px;
+	margin: auto;
+	padding: 1rem 4rem;
+	font-weight: bold;
+	color: #27acd9;
+	border-bottom: 2px solid #27acd9;
+	border-radius: 100vh;
+	box-shadow: 0 2px 7px rgba(0, 0, 0, .3);
+	-webkit-box-shadow: 0 2px 7px rgba(0, 0, 0, .3);
+	transition: 0.5s;
+}
+a.btn_07:hover {
+	color: #fff;
+	background: #27acd9;
+	border-bottom: 2px solid #fff;
+	transform: translateY(3px);
+}
