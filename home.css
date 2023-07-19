@@ -22,6 +22,7 @@ img {
 .home-content{
     text-align: center;
     margin-top: 10%;
+    /*background-color: #fff;*/
 }
 
 .home-content{
@@ -80,5 +81,11 @@ p.main-nav {
 .home-content p {
     font-size: 1.125rem;
     margin: 10px 0 42px;
+    background-color: #fff;
 }
+
+body {
+    background-image: url("index-photo-2.jpg");
+    background-size: cover;
+  }
 

@@ -12,9 +12,14 @@ html {
 }
 
 /* 背景用*/
-body {
+/*body {
   padding: 30px;
-  background:  #FFFFFF;
+  background: radial-gradient(rgb(169, 214, 255), rgb(0, 80, 159));
+}*/
+
+body {
+  background-image: url("topic-homephoto.jpg");
+  background-size: cover;
 }
 
 .btn,
@@ -86,11 +91,13 @@ a.btn-border-shadow:hover:before {
 .parent {
 	/*width: 280px;
 	height: 280px;*/
-	background-color: whitesmoke;
-	padding: 10px;
+	/*background-color: whitesmoke;*/
+  /*background: radial-gradient(rgb(169, 214, 255), rgb(0, 80, 159));*/
+	padding: 100px;
 	/*border: solid 2px black;*/
-	box-sizing: border-box;
+	/*box-sizing: border-box;*/
 }
+
 .parent div {
 	width: 80%;
 	height: 200px;
@@ -113,4 +120,92 @@ a.btn-border-shadow:hover:before {
 
 .child_4 {
 	background-color: lightgoldenrodyellow;    
+}
+
+/*.background_test {
+  background: radial-gradient(rgb(169, 214, 255), rgb(0, 80, 159));
+}*/
+
+/*共通部分*/
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: "Yu Gothic Medium";
+  line-height: 1.7;
+  color: #432;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.home-content{
+  text-align: center;
+  margin-top: 10%;
+  /*background-color: #fff;*/
+}
+
+.home-content{
+  font-size: 1.125rem;
+  margin: 10px 0 42px;
+}
+
+/* 見出し*/
+.page-title{
+  font-size: 5rem;
+  font-family: 'Pirosopher', serif;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+/*ボタン*/
+.button{
+  font-size: 1.375rem;
+  background: #0bd;
+  color: #fff;
+  border-radius: 5px;
+  padding: 18px 32px;
+}
+.button:hover{
+  background: #0090aa;
+}
+
+/*クラス指定*/
+p.main-nav {
+  font-family: 'Fredoka One', cursive;
+}
+
+/*ヘッダーのナビ*/
+.main-nav {
+  display: flex;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  margin-top: 34px;
+  list-style: none;
+}
+.main-nav li {
+  margin-left: 36px;
+}
+.main-nav a {
+  color: lavenderblush;
+}
+.main-nav a:hover {
+  color: #0bd;
+}
+
+/*Home*/
+.home-content {
+  text-align: center;
+  margin-top: 10%;
+}
+.home-content p {
+  font-size: 1.125rem;
+  margin: 10px 0 42px;
+  background-color: #fff;
 }
