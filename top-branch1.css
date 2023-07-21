@@ -87,3 +87,11 @@ a.btn-border-shadow:hover:before {
   top: 0;
   left: 0;
 }
+
+footer {
+  background-color: #808080;
+  text-align: center;
+  font-size: medium;
+  margin-left: 10px;
+  margin-right: 10px;
+}

@@ -18,7 +18,7 @@ html {
 }*/
 
 body {
-  background-color: lightcyan;
+  background-color: #fffdfa;
 }
 
 /*.body2 {
@@ -197,10 +197,10 @@ p.main-nav {
   margin-left: 36px;
 }
 .main-nav a {
-  color: darkgray;
+  color: lavenderblush;
 }
 .main-nav a:hover {
-  color: #212529;
+  color: #0bd;
 }
 
 /*Home*/

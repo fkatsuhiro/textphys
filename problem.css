@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+/*問題ページのテンプレートデザイン*/
+
+/*共通部分*/
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: "Yu Gothic Medium";
+    line-height: 1.7;
+    /*color: #432;*/
+    background-color: #fffdfa;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+}
+
+.row{
+    display: flex;
+}
+
+main {
+    flex: 3;
+    background-color: #EEEEEE;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.main-position {
+    text-align: center;
+}
+  
+aside {
+    flex: 1;
+    background-color: #f8fbff;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+footer {
+    background-color: #808080;
+    text-align: center;
+    font-size: medium;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.home-content{
+    text-align: center;
+    margin-top: 10%;
+    /*background-color: #fff;*/
+}
+
+.home-content{
+    font-size: 1.125rem;
+    margin: 10px 0 42px;
+}
+
+/* 見出し*/
+.page-title{
+    font-size: 5rem;
+    font-family: 'Pirosopher', serif;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.posi {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.posi-posi {
+    text-align: center;
+}
+
+.prob-posi {
+    margin-left: 200px;
+}
+
+
+/*クラス指定*/
+p.main-nav {
+    font-family: 'Fredoka One', cursive;
+}
+
+/*ヘッダーのナビ*/
+.main-nav {
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 34px;
+    margin-left: 600px;
+    list-style: none;
+}
+.main-nav li {
+    margin-left: 36px;
+}
+.main-nav a {
+    color: #432;
+}
+.main-nav a:hover {
+    color: #0bd;
+}
+
+a.btn_01 {
+	display: block;
+	text-align: center;
+	/*vertical-align: middle;*/
+	text-decoration: none;
+	width: 250px;
+	margin: auto;
+	padding: 1rem 4rem;
+	font-weight: bold;
+	border: 2px solid #27acd9;
+	color: #27acd9;
+	transition: 0.5s;
+}
+a.btn_01:hover {
+	color: #fff;
+	background: #27acd9;
+}
