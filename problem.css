@@ -93,6 +93,10 @@ footer {
     margin-left: 200px;
 }
 
+.left-side {
+    margin-left: 40px;
+}
+
 
 /*クラス指定*/
 p.main-nav {

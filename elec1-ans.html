@@ -24,27 +24,52 @@
                 <section>
                     <h2 class="posi-posi">導体球殻問題解説</h2>
                     <p></p>
-                    <p>① r > c での電場を求めなさい。</p>
-                    <p>導体球外殻表面に誘起される電荷は<math><mn>Q</mn><mo>+</mo><mn>Q"</mn></math>であるので、これを用いてガウスの法則から</p>
+                    <p class="left-side">① r > c での電場を求めなさい。</p>
+                    <p class="left-side">導体球外殻表面に誘起される電荷は<math><mn>Q</mn><mo>+</mo><mn>Q"</mn></math>であるので、これを用いてガウスの法則から</p>
                     <h2 class="posi-posi"><math><msubsup><mo>∫</mo></msubsup><mi>E</mi><mfenced><mrow><mi></mi>
                     </mrow></mfenced><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><mrow><mi>Q</mi><mo>+</mo>
                     <mi>Q"</mi></mrow><mrow><mi>&epsilon;</mi></mrow></mfrac></math></h2>
-                    <p>② a < r < b での電場を求めなさい。</p>
-                    <p>③ r > c での電位を求めなさい。</p>
-                    <p>④ a < r < b での電位を求めなさい。</p>
-                    <p>⑤ 電場を中心からの距離 r の関数として図示しなさい。</p>
-                    <p>⑥ 電位を中心からの距離 r の関数として図示しなさい。</p>
+                    <p class="left-side">面積分を実行して、</p>
+                    <h2 class="posi-posi"><math><mn>E</mn><mo>=</mo><mfrac><mrow><mi>Q</mi><mo>+</mo>
+                        <mi>Q"</mi></mrow><mrow><mi>4&pi;&epsilon;r</mi></mrow></mfrac></math></h2>
+                    <p class="left-side">電場を求めることができた。</p>
+                    <br></br>
+                    <p class="left-side">② a < r < b での電場を求めなさい。</p>
+                    <p class="left-side">①と同様にして、電場を求めます。今回、半径rの3次元球の内部に含まれる電荷は、<math><mn>Q</mn></math>
+                    のみであるので、①と同様にして解きます。</p>
+                    <h2 class="posi-posi"><math><mn>E</mn><mo>=</mo><mn></mn><mfrac><mrow><mi>Q</mi></mrow><mrow><mi>4&pi;&epsilon;r</mi></mrow></mfrac></math></h2>
+                    <p class="left-side">よって、電位は求まった</p>
+                    <p class="left-side">③ r > c での電位を求めなさい。</p>
+                    <p class="left-side"><math><mn>r</mn></math>から、<math><mn>r</mn><mo>=</mo>
+                    <mn>&infin;</mn></math>まで電場を積分して</p>
+                    <h2 class="posi-posi"><math><mn>V</mn><mo>=</mo><mfrac><mrow><mi>(Q</mi><mo>+</mo>
+                        <mi>Q")lnr</mi></mrow><mrow><mi>4&pi;&epsilon;</mi></mrow></mfrac></math></h2>
+                    <p class="left-side">④ a < r < b での電位を求めなさい。</p>
+                    <p class="left-side">本問も同様にして電場を積分する。但し<math><mn>r</mn><mo>=</mo><mn>b</mn></math>
+                    を境界として、電場の振る舞いが変わることを踏まえて積分します。</p>
+                    <h2 class="posi-posi"><math><mn>V</mn><mo>=</mo><mfrac><mrow><mi>(Q</mi><mo>+</mo>
+                        <mi>Q")lnc</mi></mrow><mrow><mi>4&pi;&epsilon;</mi></mrow></mfrac></math></h2>
+                    <br></br>
                 </section>
                 <a href="elec1.html" class="btn_01">問題文を確認</a>
             </main>
             <aside class="main-position">
+
                 <h2 class="posi">ガウスの法則</h2>
-                <p></p>
+                <p>電荷Qの周りでガウスの法則はdivEの体積積分が、<math><mfrac><mrow>Q</mrow><mrow>&epsilon;</mrow></mfrac></math>
+                    の関係式を満たします。</p>
                 <br></br>
                 <h2 class="posi">ガウスの定理とガウスの法則の違い</h2>
                 <p>ガウスの法則とガウスの定理は全くの別物であり、記述する際には明確に区別をする必要があります。</p>
-                <p></p>
-                <h2></h2>
+                <p>ガウスの定理は、計算に関してのことを指しますので、divの体積積分を面積分に変形することに対して言います。
+                    一方で、電荷Qの周りでガウスの法則はdivEの体積積分が、<math><mfrac><mrow>Q</mrow><mrow>&epsilon;</mrow></mfrac></math>
+                    を指すといった違いがあります。
+                </p>
+                <h2 class="posi">電位の求め方</h2>
+                <p>電位は電荷を無限遠まで運ぶ時の仕事に等しい。そのため、電位を求める際には、電場を指定された位置から
+                    無限遠まで積分するといい。
+                </p>
+                <br></br>
             </aside>
         </div>
         <footer>
